@@ -10,7 +10,7 @@ export default function Hero() {
         <div>
 
         <h1 className="text-2xl  w-1/3" >We Speacilaed in Three things</h1>
-        <Button text="View All Capablities" className="px-3 py-1 mt-2" />
+        <Button text="View All Capablities" className="px-3 py-1 mt-5" />
         </div>
         
         <div className="ml-49">

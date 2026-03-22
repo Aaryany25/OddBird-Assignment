@@ -8,9 +8,10 @@ height: number;
     className?: string;
 
 }
-export default function ImagesDiv({src,width,height,alt="image"}:ImageProps){
+export default function ImagesDiv({src,width,height,alt="image",className}:ImageProps){
     return(
-        <Image
+        <Image 
+        className={className}
         src={src}
          width={width}
       height={height}
