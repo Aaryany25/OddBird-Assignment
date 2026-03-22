@@ -4,7 +4,7 @@ import HeroRight from "./HeroRight";
 
 export default function Hero() {
   return (
-    <div className="flex  w-full h-screen  font-sans dark:bg-black border-b-2">
+    <div className="flex w-full font-sans dark:bg-black border-b-2">
       <div className="left bg-[#E2E2E0] w-1/2 rounded-br-xl flex border-r-2 ">
       <div className="  w-full flex flex-col justify-between px-10 py-10" >
         <div>
