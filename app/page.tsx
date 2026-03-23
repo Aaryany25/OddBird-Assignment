@@ -11,7 +11,7 @@ export default function Home() {
       {/* hello world my first next app */}
       <Hero/>
       <Projects/>
-      {/* <Works/> */}
+      <Works/>
       <Missions/>
     </div>
   );

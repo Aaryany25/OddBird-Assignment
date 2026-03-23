@@ -8,12 +8,12 @@ const MissionCardss=["We work with what’s plausible to explore the edge of wha
 export default function Missions(){
     return(
       <div className="bg-gray-500">
-      <div className="text-white bg-black text-center border-b-1">
+      <div className="text-white bg-[#131316] text-center border-b-1">
 <h1 className="py-30 text-5xl"> Mission</h1>
 
       </div>
        <div className="flex w-full font-sans  text-white">
-             <div className="left bg-black w-1/2 h-screen flex  rounded-r-xl border-r-2 border-dashed">
+             <div className="left bg-[#131316] w-1/2 h-screen flex  rounded-r-xl border-r-2 border-dashed">
              <div className="  w-full flex flex-col justify-between px-12 py-10 text-4xl font-light" >
                <h1>We’re designing infrastructure;<br></br> digital, emotional, and robust.</h1>
                <h1>We price honestly, and work transparently.</h1>
@@ -24,7 +24,7 @@ export default function Missions(){
                </div>
              </div>
              </div>
-             <div className="right  w-1/2 bg-black rounded-l-xl overflow-hidden ">
+             <div className="right  w-1/2 bg-[#131316] rounded-l-xl overflow-hidden ">
        {/* <HeroRight/> */}
        {
        
