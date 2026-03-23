@@ -14,7 +14,7 @@ export default function Missions(){
       </div>
        <div className="flex w-full font-sans  text-white">
              <div className="left bg-[#131316] w-1/2 h-screen flex  rounded-r-xl border-r-2 border-dashed">
-             <div className="  w-full flex flex-col justify-between px-12 py-10 text-4xl font-light" >
+             <div className="  w-full flex flex-col justify-between px-12 py-10 text-4xl font-light mb-3 h-full" >
                <h1>We’re designing infrastructure;<br></br> digital, emotional, and robust.</h1>
                <h1>We price honestly, and work transparently.</h1>
                <h1>We don’t broker the work, we do <br></br>the work.</h1>
