@@ -1,5 +1,5 @@
 "use client"
-import HeroCard from "../HeroCard";
+import HeroCard from "./HeroCard";
 
 const data = [
   {
