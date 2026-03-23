@@ -15,14 +15,10 @@ const Testimonialss=[
 ]
 export default function Testimonial(){
     return(
-        <div className="h-[20vw]  text-white p-10 flex gap-5">
+        <div className="h-[20vw] mb-10  text-white p-10 flex gap-5  border-b-1 border-white">
             {
                 Testimonialss.map(card=><TestimonialCard testy={card.Testimonial} company={card.company}/>)
             }
-            
-          
-            
-
         </div>
     )
 }

@@ -20,9 +20,7 @@ export default function HeroRight(){
 {
     data.map(card=><HeroCard key={card.id} index={card.id} title={card.title} desc={card.desc}/>)
 }
-            {/* <HeroCard/>
-            <HeroCard/>
-            <HeroCard/> */}
+          
 
         </div>
     )

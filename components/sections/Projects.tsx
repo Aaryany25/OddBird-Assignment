@@ -1,6 +1,8 @@
 "use client"
 import Button from "../Button";
 import ImagesDiv from "../ImagesDiv";
+import { RiArrowRightLine } from "react-icons/ri";
+
 const Projectsdata=[
   "Technical Strategy",
   "Web Design",
@@ -39,10 +41,14 @@ export default function Projects(){
       <div className="px-5   w-1/2 pt-5">
       {Projectsdata.map(data=>(
 
-<h1 className="text-3xl p-1 ">{data}</h1>
+<div className=" group flex  items-center gap-5">
+<RiArrowRightLine className="text-3xl transition group-hover:translate-x-2 hidden group-hover:block" />
+        <h1 className="text-3xl p-1 ">{data}</h1>
+      </div>
       )
 
       )}
+      
       </div>
       <div>
               <ImagesDiv className="pt-5" src="https://images.unsplash.com/photo-1580169188512-147b97dfa87b?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" width={250} height={250}/>

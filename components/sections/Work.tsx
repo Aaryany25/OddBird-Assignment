@@ -30,7 +30,7 @@ export default function Works(){
     {Workss.map(work=><WorkCards key={work.id} src={work.src} title={work.title} desc={work.desc}/>)}
 
       </div>
-      <div className="text-center py-10">
+      <div className="text-center py-10  flex items-center justify-center">
 
       <Button text="View All Work" className=" text-center px-3 py-2 mt-5 bg-black text-white"/>
       </div>
